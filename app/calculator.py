@@ -1,3 +1,5 @@
+from __future__ import division
+
 class Calculator(object):
 
     @staticmethod
@@ -10,4 +12,4 @@ class Calculator(object):
 
     @staticmethod
     def division(a, b):
-        return float(a) / float(b)
+        return a / b
