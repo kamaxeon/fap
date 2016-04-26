@@ -17,3 +17,8 @@ class TestCalculator(unittest.TestCase):
         calc = Calculator()
         result = calc.substraction(4,2)
         self.assertEqual(2, result)
+
+    def test_calculator_division_method_returns_correct_result(self):
+        calc = Calculator()
+        result = calc.division(5,2)
+        self.assertEqual(2.5, result)
